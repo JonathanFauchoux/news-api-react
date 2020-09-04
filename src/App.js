@@ -18,6 +18,8 @@ function App() {
     console.log('axios', country)
     // Axios + envoyer les données dans le state
     var urlApi = 'https://newsapi.org/v2/top-headlines?'+'country='+country+'&'+'apiKey=a1d8333a47174be293f49c407731e409'
+
+    
     axios
       .get(
         urlApi
